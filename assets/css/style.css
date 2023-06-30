@@ -23,9 +23,13 @@ aside{
 main{
     grid-area: main;
     background-color: rgb(169, 60, 21);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
 }
 
 footer{
     grid-area: footer;
     background-color: rgb(136, 50, 50);
 }
+
