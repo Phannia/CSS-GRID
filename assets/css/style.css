@@ -3,14 +3,15 @@
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "header header header"
     "aside main main"
     "footer footer footer"
     ;
     height: 100vh;
+    width: 100vw;
 }
 
 header{
@@ -21,14 +22,18 @@ header{
 aside{
     grid-area: aside;
     background-color: rgb(109, 90, 126);
+    width: 20vw;
 }
 
 main{
     grid-area: main;
     background-color: rgb(169, 60, 21);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    width: 80vw;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+
 }
 
 footer{
