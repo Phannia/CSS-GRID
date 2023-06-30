@@ -16,6 +16,8 @@
 header{
     grid-area: header;
     background-color: rgb(18, 164, 115);
+    text-align: center;
+    padding: 20px;
 }
 
 aside{
@@ -32,12 +34,14 @@ main{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     justify-content: space-evenly;
-
+    gap: 2vw;
 }
 
 footer{
     grid-area: footer;
     background-color: rgb(136, 50, 50);
+    padding: 20px;
+    text-align: center;
 }
 
 .item{
