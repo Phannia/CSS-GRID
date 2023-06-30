@@ -24,6 +24,9 @@ aside{
     grid-area: aside;
     background-color: rgb(109, 90, 126);
     width: 20vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 main{
