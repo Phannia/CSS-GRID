@@ -40,3 +40,9 @@ footer{
     background-color: rgb(136, 50, 50);
 }
 
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
