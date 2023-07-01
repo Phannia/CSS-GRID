@@ -16,23 +16,33 @@
 
 header{
     grid-area: header;
-    background-color: rgb(18, 164, 115);
+    background-color: rgb(18, 84, 164);
     text-align: center;
     padding: 20px;
 }
 
 aside{
     grid-area: aside;
-    background-color: rgb(109, 90, 126);
+    background-color: rgb(180, 177, 183);
     width: 20vw;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
+.categories-menu h2{
+    padding: 2vh;
+    font-weight: bolder;
+}
+
+.categories p{
+    padding: 1vh;
+    font-weight: bold;
+}
+
 main{
     grid-area: main;
-    background-color: rgb(169, 60, 21);
+    background-color: rgb(180, 177, 183);
     display: grid;
     width: 80vw;
     grid-template-columns: auto auto auto;
@@ -43,7 +53,7 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: rgb(136, 50, 50);
+    background-color: rgb(18, 84, 164);
     padding: 20px;
     text-align: center;
 }
@@ -53,4 +63,12 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.item button{
+    background-color: rgb(18, 84, 164);
+    color: white;
+    font-weight: bold;
+    height: 4vh;
+    width: 8vw;
 }
