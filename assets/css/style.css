@@ -49,6 +49,7 @@ main{
     grid-template-rows: auto auto auto;
     justify-content: space-evenly;
     gap: 2vw;
+    padding-top: 2vh;
 }
 
 footer{
