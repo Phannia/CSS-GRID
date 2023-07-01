@@ -66,6 +66,13 @@ footer{
     background-color: rgb(255, 255, 255);
 }
 
+.item h3{
+    padding: 1vh;
+}
+
+.item p{
+    padding: 1vh;
+}
 .item button{
     background-color: rgb(18, 84, 164);
     color: white;
